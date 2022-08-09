@@ -13,12 +13,12 @@
         padding: 0;
       }
       .vh1 {
-        height: 100dvh;
+        height: 100vh;
         background: #f00;
         position: relative;
       }
       .vh2 {
-        height: 100dvh;
+        height: 100vh;
         background: #0ff;
         position: relative;
       }
@@ -44,16 +44,28 @@
         width: 100%;
         background: #333;
       }
+      .btn {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        background: #0f0;
+        color: #000;
+        line-height: 50px;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <div class="vh1">
-      <div class="top">top</div>
+      <div class="top"><input type="text" /></div>
       <div class="bottom">bottom</div>
     </div>
     <div class="vh2">
       <div class="top">top</div>
       <div class="bottom">bottom</div>
     </div>
+    <div class="btn">button</div>
   </body>
 </html>
